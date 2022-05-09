@@ -1,0 +1,59 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	background-color: black;
+	color: #AAA;
+}
+
+.sub {
+	color: #666;
+	font-size: 1.2vw;
+}
+
+
+#weather {
+	position: fixed;
+	top:100px;
+	left: 30px;
+}
+
+#news {
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%, -85%);
+}
+
+#message {
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -75%);
+} 
+
+#spotify {
+	position: fixed;
+	top:30px;
+	right:30px;
+}
+
+.time {
+	font-size:3vw;
+	position: fixed;
+	top:30px;
+	left:30px;
+}
+
+.time #hhmm {
+	font-size: 3.2vw;
+	display:inline;
+}
+
+.time #ampm {
+	display: inline;
+}
